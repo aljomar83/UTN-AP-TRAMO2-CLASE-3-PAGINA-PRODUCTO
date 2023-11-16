@@ -1,5 +1,5 @@
 .container-card{
-    max width: 250px;
+    max-width: 250px;
     background-color: gray;
     border-radius: 5 px;
     padding: 10px;
@@ -10,6 +10,10 @@
     align-items: center; 
 }
 
+.img{
+    max-width: 200px;
+    max-height: 200px;
+}
 .container-card img {
     vertical-align: top;
     margin: 20 px 0;
