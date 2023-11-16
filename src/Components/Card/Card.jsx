@@ -9,6 +9,10 @@ const Card = ({producto}) =>{
                 <h6>{producto.tittle}</h6>
                 <p><span>Precio: {producto.price}</span></p>
                 <p><span>Condicion: {producto.condition}</span></p>
+                <p><span>SKU: {producto.id}</span></p>
+                <p><span>Stock: {producto.stock}</span></p>
+
+
             </div>
         </div>
     )
