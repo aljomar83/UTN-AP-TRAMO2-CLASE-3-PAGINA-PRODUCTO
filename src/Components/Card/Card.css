@@ -1,7 +1,7 @@
 .container-card{
-    max-width: 250px;
-    background-color: gray;
-    border-radius: 5 px;
+    max-width: 350px;
+    border:solid pink;
+    border-radius: 30px;
     padding: 10px;
     margin: 10 px;
     display: flex;
@@ -11,29 +11,23 @@
 }
 
 .img{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
 }
 .container-card img {
     vertical-align: top;
     margin: 20 px 0;
 }
 
-.products-details{
-    padding: o 10px;
-}
 
-.products-detail h6{
-    font-size: 18 px;
-    margin: 10 px 0;
-}
 
-.products-detail p span{
-    font-weight: bold;
-}
-
-.free-shipping{
+#tittle{
     margin: 10px 0;
     font-weight: bold;
-    color: blue;
-}
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #8B4513; /* Marrón */
+    background-color: #F5DEB3; /* Beige */
+    border-radius: 10px;
+    padding: 10px;
+    }

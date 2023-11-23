@@ -1,5 +1,6 @@
 import './App.css'
 import { Card } from './Components/Card/Card'
+import { Header } from './components/Header/Header'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+    <Header/>
       <div>
         <Card producto={producto}/>
       </div>
