@@ -1,25 +1,22 @@
 import './App.css'
-import { Card } from './Components/Card/Card'
-import { Header } from './components/Header/Header'
+// import { CardP } from './Components/CardP/CardP'
+import { Header } from './Components/Header/Header'
+import { Main } from './Components/Main/Main'
+import { Footer } from './Components/Footer/Footer'
+import { ChakraProvider } from '@chakra-ui/react'
 
-function App() {
+const App=()=> {
   
-  const producto={
-    "id": "Pasteleria01",
-    "tittle": "CupCake de vainilla con Merengue Italiano",
-    "price": 500,
-    "condition": "Listo para consumo",
-    "stock": 5,
-    "thumbnail": "./imgs/cupcakeBasicoVainilla.png",
-  }
+
 
   return (
-    <>
-    <Header/>
-      <div>
-        <Card producto={producto}/>
-      </div>
-    </>
+    <ChakraProvider>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </ChakraProvider>
+    
+    
   )
 }
 
