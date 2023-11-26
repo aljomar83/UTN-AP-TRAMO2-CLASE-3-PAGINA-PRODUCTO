@@ -5,9 +5,9 @@ import { Container } from '@chakra-ui/react';
 const Main=()=>{
 
     const producto = {   //Declaracion objeto
-        id:'001',
-        tittle:'Cupcake de Vainilla con Merengue Italiano',
-        desc:'Suave y esponjoso biscochito de vainilla con notas cítricas, decorado con cobertura de merengue italiano (sin topping ni relleno)',
+        id:'Pasteleria001',
+        tittle:'Cupcake Básico Vainilla',
+        desc: 'Biscochito de vainilla con cobertura de merengue italiano (sin topping ni relleno)',
         price:500,
         condition:'Listo para consumo',
         stock:20,

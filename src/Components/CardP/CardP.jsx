@@ -6,14 +6,15 @@ import { Card, CardBody, CardFooter, Divider, Image, Stack, Heading, Text, Butto
 const CardP = ({id, tittle, price, condition,stock,thumbnail,desc}) =>{
     return(
         <Card>
-            <Heading>Producto: {tittle}</Heading>
-            <CardBody>
                 <Image src={thumbnail}/>
+            <Heading>{tittle}</Heading>
+            <CardBody>
                 <Divider/>
-                <Text>SKU: {id}</Text>
-                <Text>Descripción: {desc}</Text>
-                <Text>Estado: {condition}</Text>
-                <Text>Precio: {price}</Text>
+                <Text><strong>SKU:</strong> {id}</Text>
+                <Text><strong>Estado:</strong> {condition}</Text>
+                <Text><strong>Precio:</strong> {price}</Text>
+                <Text><strong>Stock:</strong> {stock}</Text>
+                <Text><strong>Descripción:</strong> {desc}</Text>
             </CardBody>
         </Card>
         
