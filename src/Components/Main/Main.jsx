@@ -1,5 +1,6 @@
 import './Main.css'; 
 import { CardP } from '../CardP/CardP'
+import { Container } from '@chakra-ui/react';
 
 const Main=()=>{
 
@@ -10,16 +11,15 @@ const Main=()=>{
         price:500,
         condition:'Listo para consumo',
         stock:20,
-        thumbnail: "../imgs/cupcakeBasicoVainilla.png"
-    }
+        thumbnail: './imgs/cupcakeBasicoVainilla.png'}
 
     const {id, tittle, price,condition,stock,thumbnail, desc} = producto //Deconstrucción de sus propiedades 
     
     return(	    
-
-           <CardP id={id} tittle={tittle} price={price} desc={desc} condition={condition} stock={stock} thumbnail={thumbnail}/>    
-            // paso por props al componente hijo CardP
-
+        <Container minH="80vh">
+        <CardP id={id} tittle={tittle} price={price} desc={desc} condition={condition} stock={stock} thumbnail={thumbnail}/>    
+        </Container>
+        /* paso por props al componente hijo CardP */
     )
 }
 
