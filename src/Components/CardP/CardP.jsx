@@ -5,7 +5,7 @@ import { Card, CardBody, CardFooter, Divider, Image, Stack, Heading, Text, Butto
 
 const CardP = ({id, tittle, price, condition,stock,thumbnail,desc}) =>{
     return(
-        <Card>
+        <Card variant={'unstyled'}>
                 <Image src={thumbnail}/>
             <Heading>{tittle}</Heading>
             <CardBody>
