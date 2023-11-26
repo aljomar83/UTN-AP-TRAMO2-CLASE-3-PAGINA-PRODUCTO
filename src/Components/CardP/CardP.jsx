@@ -1,5 +1,4 @@
 
-import "./CardP.css"
 import { Card, CardBody, CardFooter, Divider, Image, Stack, Heading, Text, ButtonGroup, Button, Box  } from "@chakra-ui/react"; 
 
 
